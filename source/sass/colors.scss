@@ -1,0 +1,22 @@
+$abb-midnight: #292C44;
+$abb-red: #FF5349;
+$abb-near-white: #F0F0F1;
+$abb-teal: #18CDCA;
+$abb-blue: #4F80E1;
+
+// Helpers for displaying swatches
+.sg-midnight {
+  background: $abb-midnight;
+}
+.sg-red {
+  background: $abb-red;
+}
+.sg-near-white {
+  background: $abb-near-white;
+}
+.sg-teal {
+  background: $abb-teal;
+}
+.sg-blue {
+  background: $abb-blue;
+}
