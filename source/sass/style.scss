@@ -1,3 +1,5 @@
 @import 'normalize/import-now';
-@import './colors';
+
+@import './global/base';
+@import './global/colors';
 @import './components/button';

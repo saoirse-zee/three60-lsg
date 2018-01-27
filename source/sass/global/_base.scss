@@ -1,0 +1,28 @@
+@import './colors';
+$font-stack: Helvetica, sans-serif;
+
+/**
+ * Body base styles
+ */
+body {
+	background: white;
+	color: $abb-dark-gray;
+	font: 100%/1.5 $font-stack;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $abb-dark-gray;
+}
+
+a {
+	color: $abb-teal;
+	text-decoration: none;
+	border-bottom: 3px solid transparent;
+
+	&:hover {
+		border-bottom: 3px solid $abb-red;
+	}
+}
