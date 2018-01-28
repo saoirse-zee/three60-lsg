@@ -1,0 +1,14 @@
+.statusIndicator {
+  background: $abb-near-white;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+
+  &.success {
+    background: $abb-teal;
+  }
+
+  &.fail {
+    background: $abb-red;
+  }
+}
