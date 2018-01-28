@@ -1,0 +1,27 @@
+.participantStatusItem {
+  .info {
+    display: flex;
+    justify-content: space-between;
+
+    .bio {
+      display: flex;
+      .photo-container {
+        margin-right: 1rem;
+      }
+      .name {
+        margin: 0;
+      }
+      .title {
+        margin: 0;
+        font-size: 0.8rem;
+        color: gray;
+      }
+    }
+
+    .indicator-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}

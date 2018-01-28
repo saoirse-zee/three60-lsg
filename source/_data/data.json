@@ -3,9 +3,9 @@
   "key2": "use this for variables you want to load globally",
   "title": "The quick brown fox jumped over the lazy dog",
   "img": {
-    "avatar": {
-      "src": "http://placeimg.com/50/50/people",
-      "alt": "Avatar"
+    "profile": {
+      "src": "../../images/fpo-profile-pic.jpg",
+      "alt": "Photo of Effie P Oh"
     },
     "square": {
       "src": "http://placeimg.com/300/300/nature",

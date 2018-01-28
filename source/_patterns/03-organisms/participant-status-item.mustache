@@ -1,0 +1,19 @@
+<div class="participantStatusItem">
+  <div class="info">
+    <div class="bio">
+      <div class="photo-container">
+        {{> atoms-profile-pic }}
+      </div>
+      <div>
+        <h2 class="name">{{ participant.name }}</h2>
+        <p class="title">{{ participant.title }}</p>
+      </div>
+    </div>
+    <div class="indicator-container">
+      {{> atoms-indicator }}
+    </div>
+  </div>
+  <div class="progress">
+    {{> atoms-progress-line }}
+  </div>
+</div>
