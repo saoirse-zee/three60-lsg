@@ -5,12 +5,12 @@
         {{> atoms-profile-pic }}
       </div>
       <div>
-        <h2 class="name">{{ participant.name }}</h2>
-        <p class="title">{{ participant.title }}</p>
+        <h2 class="name">{{ name.first }} {{ name.last }}</h2>
+        <p class="title">{{ role }}</p>
       </div>
     </div>
     <div class="indicator-container">
-      {{> atoms-indicator }}
+      {{> atoms-status-indicator }}
     </div>
   </div>
   <div class="progress">
