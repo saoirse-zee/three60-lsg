@@ -1,0 +1,12 @@
+.progressLine {
+  background: $abb-near-white;
+  height: 5px;
+  position: relative;
+
+  .progressAmount {
+    height: 5px;
+    position: absolute;
+    width: 33%;
+    background: $abb-teal;
+  }
+}
