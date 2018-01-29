@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1517196480719,
+  "timestamp": 1517211425926,
   "graph": {
     "options": {
       "directed": true,
@@ -8,26 +8,6 @@
       "compound": false
     },
     "nodes": [
-      {
-        "v": "/Users/zacharysmith/work/abbott/pattern-library/source/_meta/_00-head.mustache",
-        "value": {
-          "compileState": null
-        }
-      },
-      {
-        "v": "/Users/zacharysmith/work/abbott/pattern-library/source/_meta/_01-foot.mustache",
-        "value": {
-          "compileState": null
-        }
-      },
-      {
-        "v": "01-atoms/button.mustache",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/03-organisms-00-form/03-organisms-00-form.rendered.html",
-          "lineagePattern": "organisms-form"
-        }
-      },
       {
         "v": "01-atoms/00-global/00-brand-colors.mustache",
         "value": {
@@ -47,73 +27,19 @@
         }
       },
       {
-        "v": "03-organisms/00-form.mustache",
-        "value": {
-          "compileState": "clean"
-        }
-      },
-      {
-        "v": "02-molecules/00-text-input.mustache",
+        "v": "01-atoms/_button.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/03-organisms-00-form/03-organisms-00-form.rendered.html",
+          "lineagePath": "../../patterns/03-organisms-_form/03-organisms-_form.rendered.html",
           "lineagePattern": "organisms-form"
         }
       },
       {
-        "v": "02-molecules/01-text-area.mustache",
+        "v": "01-atoms/profile-pic.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/03-organisms-00-form/03-organisms-00-form.rendered.html",
-          "lineagePattern": "organisms-form"
-        }
-      },
-      {
-        "v": "02-molecules/02-radio-set.mustache",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/03-organisms-00-form/03-organisms-00-form.rendered.html",
-          "lineagePattern": "organisms-form"
-        }
-      },
-      {
-        "v": "01-atoms/radio-button.mustache",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/02-molecules-02-radio-set/02-molecules-02-radio-set.rendered.html",
-          "lineagePattern": "molecules-radio-set"
-        }
-      },
-      {
-        "v": "02-molecules/03-checkbox-set.mustache",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/03-organisms-00-form/03-organisms-00-form.rendered.html",
-          "lineagePattern": "organisms-form"
-        }
-      },
-      {
-        "v": "01-atoms/checkbox.mustache",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/02-molecules-03-checkbox-set/02-molecules-03-checkbox-set.rendered.html",
-          "lineagePattern": "molecules-checkbox-set"
-        }
-      },
-      {
-        "v": "02-molecules/04-dropdown.mustache",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/03-organisms-00-form/03-organisms-00-form.rendered.html",
-          "lineagePattern": "organisms-form"
-        }
-      },
-      {
-        "v": "01-atoms/dropdown-option.mustache",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/02-molecules-04-dropdown/02-molecules-04-dropdown.rendered.html",
-          "lineagePattern": "molecules-dropdown"
+          "lineagePath": "../../patterns/02-molecules-participant-status-item/02-molecules-participant-status-item.rendered.html",
+          "lineagePattern": "molecules-participant-status-item"
         }
       },
       {
@@ -126,14 +52,6 @@
       },
       {
         "v": "01-atoms/status-indicator.mustache",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/02-molecules-participant-status-item/02-molecules-participant-status-item.rendered.html",
-          "lineagePattern": "molecules-participant-status-item"
-        }
-      },
-      {
-        "v": "01-atoms/profile-pic.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/02-molecules-participant-status-item/02-molecules-participant-status-item.rendered.html",
@@ -155,6 +73,22 @@
         }
       },
       {
+        "v": "03-organisms/footer.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-templates-workshop-status/04-templates-workshop-status.rendered.html",
+          "lineagePattern": "templates-workshop-status"
+        }
+      },
+      {
+        "v": "03-organisms/header.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-templates-workshop-status/04-templates-workshop-status.rendered.html",
+          "lineagePattern": "templates-workshop-status"
+        }
+      },
+      {
         "v": "03-organisms/participant-status-list.mustache",
         "value": {
           "compileState": "clean",
@@ -169,68 +103,89 @@
         }
       },
       {
-        "v": "03-organisms/header.mustache",
+        "v": "/Users/zacharysmith/work/abbott/pattern-library/source/_meta/_00-head.mustache",
         "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/04-templates-workshop-status/04-templates-workshop-status.rendered.html",
-          "lineagePattern": "templates-workshop-status"
+          "compileState": null
         }
       },
       {
-        "v": "03-organisms/footer.mustache",
+        "v": "/Users/zacharysmith/work/abbott/pattern-library/source/_meta/_01-foot.mustache",
+        "value": {
+          "compileState": null
+        }
+      },
+      {
+        "v": "01-atoms/_checkbox.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/04-templates-workshop-status/04-templates-workshop-status.rendered.html",
-          "lineagePattern": "templates-workshop-status"
+          "lineagePath": "../../patterns/02-molecules-_checkbox-set/02-molecules-_checkbox-set.rendered.html",
+          "lineagePattern": "molecules-checkbox-set"
+        }
+      },
+      {
+        "v": "01-atoms/_dropdown-option.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-molecules-_dropdown/02-molecules-_dropdown.rendered.html",
+          "lineagePattern": "molecules-dropdown"
+        }
+      },
+      {
+        "v": "01-atoms/_radio-button.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-molecules-_radio-set/02-molecules-_radio-set.rendered.html",
+          "lineagePattern": "molecules-radio-set"
+        }
+      },
+      {
+        "v": "02-molecules/_checkbox-set.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-organisms-_form/03-organisms-_form.rendered.html",
+          "lineagePattern": "organisms-form"
+        }
+      },
+      {
+        "v": "02-molecules/_dropdown.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-organisms-_form/03-organisms-_form.rendered.html",
+          "lineagePattern": "organisms-form"
+        }
+      },
+      {
+        "v": "02-molecules/_radio-set.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-organisms-_form/03-organisms-_form.rendered.html",
+          "lineagePattern": "organisms-form"
+        }
+      },
+      {
+        "v": "02-molecules/_text-area.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-organisms-_form/03-organisms-_form.rendered.html",
+          "lineagePattern": "organisms-form"
+        }
+      },
+      {
+        "v": "02-molecules/_text-input.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-organisms-_form/03-organisms-_form.rendered.html",
+          "lineagePattern": "organisms-form"
+        }
+      },
+      {
+        "v": "03-organisms/_form.mustache",
+        "value": {
+          "compileState": "clean"
         }
       }
     ],
     "edges": [
-      {
-        "v": "03-organisms/00-form.mustache",
-        "w": "01-atoms/button.mustache",
-        "value": {}
-      },
-      {
-        "v": "03-organisms/00-form.mustache",
-        "w": "02-molecules/00-text-input.mustache",
-        "value": {}
-      },
-      {
-        "v": "03-organisms/00-form.mustache",
-        "w": "02-molecules/01-text-area.mustache",
-        "value": {}
-      },
-      {
-        "v": "03-organisms/00-form.mustache",
-        "w": "02-molecules/02-radio-set.mustache",
-        "value": {}
-      },
-      {
-        "v": "02-molecules/02-radio-set.mustache",
-        "w": "01-atoms/radio-button.mustache",
-        "value": {}
-      },
-      {
-        "v": "03-organisms/00-form.mustache",
-        "w": "02-molecules/03-checkbox-set.mustache",
-        "value": {}
-      },
-      {
-        "v": "02-molecules/03-checkbox-set.mustache",
-        "w": "01-atoms/checkbox.mustache",
-        "value": {}
-      },
-      {
-        "v": "03-organisms/00-form.mustache",
-        "w": "02-molecules/04-dropdown.mustache",
-        "value": {}
-      },
-      {
-        "v": "02-molecules/04-dropdown.mustache",
-        "w": "01-atoms/dropdown-option.mustache",
-        "value": {}
-      },
       {
         "v": "01-atoms/status-indicator~fail.json",
         "w": "01-atoms/status-indicator.mustache",
@@ -258,17 +213,67 @@
       },
       {
         "v": "04-templates/workshop-status.mustache",
-        "w": "03-organisms/participant-status-list.mustache",
-        "value": {}
-      },
-      {
-        "v": "04-templates/workshop-status.mustache",
         "w": "03-organisms/header.mustache",
         "value": {}
       },
       {
         "v": "04-templates/workshop-status.mustache",
+        "w": "03-organisms/participant-status-list.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-templates/workshop-status.mustache",
         "w": "03-organisms/footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-molecules/_checkbox-set.mustache",
+        "w": "01-atoms/_checkbox.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-molecules/_dropdown.mustache",
+        "w": "01-atoms/_dropdown-option.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-molecules/_radio-set.mustache",
+        "w": "01-atoms/_radio-button.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-organisms/_form.mustache",
+        "w": "02-molecules/_text-input.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-organisms/_form.mustache",
+        "w": "02-molecules/_text-area.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-organisms/_form.mustache",
+        "w": "02-molecules/_radio-set.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-organisms/_form.mustache",
+        "w": "02-molecules/_checkbox-set.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-organisms/_form.mustache",
+        "w": "02-molecules/_dropdown.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-organisms/_form.mustache",
+        "w": "01-atoms/_button.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-organisms/header.mustache",
+        "w": "01-atoms/profile-pic.mustache",
         "value": {}
       }
     ]

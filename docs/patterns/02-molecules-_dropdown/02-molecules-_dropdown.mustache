@@ -1,0 +1,12 @@
+<div>
+  <label for="some-field">
+    {{ label }}
+  </label>
+  <div>
+    <select name="some-field">
+    {{> atoms-dropdown-option(value: "pudding", label: "Pudding")}}
+    {{> atoms-dropdown-option(value: "beans", label: "Beans")}}
+    {{> atoms-dropdown-option(value: "rocket", label: "Rocket")}}
+  </select>
+  </div>
+</div>
