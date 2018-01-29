@@ -1,13 +1,10 @@
 .participant-status-list {
   .item {
     margin-bottom: 2.5rem;
-    border: 1px solid transparent;
-    border-radius: 10px;
-    padding: 1rem;
-    transition: border 0.3s ease;
+    transition: box-shadow 0.3s ease;
 
     &:hover {
-      border: 1px solid $abb-medium-gray;
+      box-shadow: 2px 2px 3px 3px #ccc;
     }
   }
 }
