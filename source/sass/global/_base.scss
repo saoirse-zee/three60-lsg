@@ -1,5 +1,6 @@
 @import './colors';
 $font-stack: Helvetica, sans-serif;
+$medium-screen: 800px;
 
 /**
  * Body base styles
@@ -14,9 +15,19 @@ body {
 }
 
 main {
-	margin: 30px;
+	margin: 30px auto;
 }
 
+@media screen and (min-width: $medium-screen) {
+	main {
+		width: $medium-screen;
+	}
+}
+
+
+/**
+ * Primary type element styles
+ */
 h1, h2, h3, h4, h5, h6 {
   color: $abb-dark-gray;
 }
