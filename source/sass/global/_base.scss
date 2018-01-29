@@ -13,8 +13,16 @@ body {
 	flex-direction: column;
 }
 
+main {
+	margin: 30px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: $abb-dark-gray;
+}
+
+h1 {
+	border-bottom: 1px solid $abb-near-white;
 }
 
 a {
@@ -27,6 +35,8 @@ a {
 	}
 }
 
-li {
-	list-style: none;
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }

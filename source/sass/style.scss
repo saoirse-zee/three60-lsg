@@ -2,10 +2,17 @@
 
 @import './global/base';
 @import './global/colors';
-@import './components/button';
+
+@import './components/01-atoms/button';
 @import './components/01-atoms/progress-line';
 @import './components/01-atoms/profile-pic';
 @import './components/01-atoms/status-indicator';
+
+@import './components/02-molecules/participant-status-item';
+
 @import './components/03-organisms/form';
-@import './components/03-organisms/participant-status-item';
-@import './components/04-templates/participant-status-list';
+@import './components/03-organisms/footer';
+@import './components/03-organisms/header';
+@import './components/03-organisms/participant-status-list';
+
+@import './components/04-templates/workshop-status';

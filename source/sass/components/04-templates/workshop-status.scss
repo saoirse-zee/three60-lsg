@@ -1,0 +1,16 @@
+.workshop-status {
+  .event-name {
+    font-weight: 200;
+    color: $abb-medium-gray;
+    &:before {
+      content: " • ";
+      color: $abb-near-white;
+    }
+  }
+  .summary {
+    font-size: 0.8rem;
+    color: $abb-medium-gray;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid $abb-near-white;
+  }
+}
