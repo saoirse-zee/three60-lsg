@@ -15,12 +15,13 @@ body {
 }
 
 main {
-	margin: 30px auto;
+	margin: 30px;
 }
 
 @media screen and (min-width: $medium-screen) {
 	main {
 		width: $medium-screen;
+		margin: 30px auto;
 	}
 }
 

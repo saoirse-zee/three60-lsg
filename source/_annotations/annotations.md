@@ -5,10 +5,10 @@ title: Logo
 This is a placeholder logo, used to preserve client confidentiality.
 ~*~
 ---
-el: .time-remaining
-title: Time remaining
+el: .chart
+title: History chart
 ---
-Displays the time remaining in this section of the workshop.
+The progress of the cohort as a whole is overlaid onto historical data, allowing the facilitator to see how this group is doing compared to previous groups.
 ~*~
 ---
 el: .indicator-container

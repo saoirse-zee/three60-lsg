@@ -1,11 +1,7 @@
 {{> organisms-header }}
 <main class="workshop-status">
   <h1>Workshop<span class="event-name">{{ eventName }}</span></h1>
-  <div class="summary">
-    <p>{{ month.long }} {{ day.short }}, {{ year.long }}</p>
-    <p>{{ participantCount }} participants</p>
-    <p class="time-remaining">{{ timeRemaining }} remaining</p>
-  </div>
+  <img class="chart" src="../../images/chart-example.png" alt="">
   {{> organisms-participant-status-list }}
 </main>
 {{> organisms-footer }}
