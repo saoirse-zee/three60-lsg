@@ -1,12 +1,24 @@
+$logo-height: 1.5rem;
+
 header.header {
   background: $abb-midnight;
   height: 4rem;
-  padding: 1rem;
+  padding: 1rem 3rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 
   .logo {
-    color: white;
-    font-size: 1.5rem;
+    background: url(../../images/three-sixty-logo.png) no-repeat center center;
+    width: $logo-height * 5; // Logo has a 5:1 ratio
+    height: $logo-height;
+    background-size: cover;
+  }
+
+  .profile {
+    background: url(../../images/user-icon.png) no-repeat center center;
+    width: $logo-height;
+    height: $logo-height;
+    background-size: cover;
   }
 }
